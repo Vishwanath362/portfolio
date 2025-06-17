@@ -21,7 +21,7 @@ const Hero = () => {
 
       <div className="relative z-10 font-Montserrat">
         <Navbar />
-        <div className='text-white mt-32 '>
+        <div className='text-white mt-20 '>
           <div className='text-9xl items-center  justify-center flex '>HIII THERE</div>
           <div className='text-9xl items-center  justify-center flex'>I'M VISHWANATH</div>
 

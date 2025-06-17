@@ -25,7 +25,7 @@ const skills = [
 const Skills = () => {
     return (
         <>
-            {/* Skills Grid */}
+          
             <div className="relative bg-gradient-to-br from-gray-900 via-gray-950 to-black py-16 px-4">
                 <div className="flex flex-col items-center justify-center mb-12">
                     <h2 className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text drop-shadow-lg tracking-wide">
@@ -64,7 +64,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            {/* Twinkle Animation */}
+          
             <style>
                 {`
                 @keyframes twinkle {
