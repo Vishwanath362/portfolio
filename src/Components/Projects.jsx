@@ -219,8 +219,7 @@ const Projects = () => {
                     <h5 className='text-white font-bold text-3xl pb-6 border-b border-red-400'>System-Level Projects</h5>
 
 
-                    <a href="#" title="Tooltip text">Hover me</a>
-
+                   
                     <div className='flex flex-col scale-90 mt-10 md:flex-row items-start gap-6 bg-gray-600 p-6 rounded-md transition-transform duration-300 hover:scale-100'>
 
 
