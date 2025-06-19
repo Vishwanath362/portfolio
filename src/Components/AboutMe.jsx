@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <div id='about' className="relative bg-black min-h-[40vh] text-white overflow-hidden py-8 px-4">
             {/* Rain effect background layer */}
-            {[...Array(10)].map((_, i) => (
+            {[...Array(15)].map((_, i) => (
                 <div
                     key={i}
                     className="absolute w-0.5 h-0.5 bg-white rounded-full animate-twinkle"
