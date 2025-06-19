@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         <div className="relative group flex justify-center items-center pt-6">
           <a
-            href="https://www.google.com"
+            href="https://www.dropbox.com/scl/fi/gksb2er2tcpm3fp68np1l/My-Resume-2.pdf?rlkey=lqzghjlk0w6fivy261ydozn4c&dl=0"
             className="text-2xl font-Poppins text-white px-2 relative"
           >
             <span className="block group-hover:hidden">Vishwanath</span>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <a href="#projects" className="text-gray-400" onClick={() => setMenuOpen(false)}>Projects</a>
             <a href="#about" className="text-gray-400" onClick={() => setMenuOpen(false)}>About Me</a>
             <a
-              href="https://www.google.com"
+              href="https://www.dropbox.com/scl/fi/gksb2er2tcpm3fp68np1l/My-Resume-2.pdf?rlkey=lqzghjlk0w6fivy261ydozn4c&dl=0"
               className="text-pink-400 font-semibold"
               onClick={() => setMenuOpen(false)}
             >
