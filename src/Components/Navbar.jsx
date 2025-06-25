@@ -62,7 +62,7 @@ const Navbar = () => {
               className="text-pink-400 font-semibold"
               onClick={() => setMenuOpen(false)}
             >
-              Get My Resume
+              Get My Resume 
             </a>
             <div className="flex flex-col gap-1 mt-2">
               <span className="text-sm text-gray-400">Say hi -</span>
