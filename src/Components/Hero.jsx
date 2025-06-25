@@ -30,12 +30,12 @@ const Hero = () => {
         <Navbar />
         <div className="text-white mt-20 px-2">
           <div className="flex justify-center items-center">
-            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center">
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-bold text-center">
               HIII THERE
             </h1>
           </div>
           <div className="flex justify-center items-center mt-2">
-            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center">
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-bold text-center">
               I'M VISHWANATH
             </h1>
           </div>
@@ -47,7 +47,7 @@ const Hero = () => {
               alt="Robot"
             />
             <div
-              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-bold
                 bg-gradient-to-r from-red-400 to-purple-600
                 text-transparent bg-clip-text
                 border-2 border-dashed border-orange-400 p-1 ml-0 md:ml-8 mt-4 md:mt-0 text-center"
@@ -56,7 +56,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center items-center mt-2">
-            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-center">
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-bold text-center">
               ENGINEER
             </h1>
           </div>
