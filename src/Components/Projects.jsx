@@ -6,6 +6,7 @@ import findMyFamily from '../assets/findMyFamily.png'
 import royalNest from '../assets/royalNest.png'
 import fitFusion from '../assets/fitFusion.png'
 import songifyImage from '../assets/Songify.png'
+import taskflowImage from '../assets/taskflowImage.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -123,11 +124,10 @@ const Projects = () => {
       {[...Array(25)].map((_, i) => (
         <div
           key={i}
-          className={`absolute rounded-full animate-pulse ${
-            i % 3 === 0 ? 'bg-blue-400 w-1 h-1' : 
-            i % 3 === 1 ? 'bg-purple-400 w-0.5 h-0.5' : 
-            'bg-white w-px h-px'
-          }`}
+          className={`absolute rounded-full animate-pulse ${i % 3 === 0 ? 'bg-blue-400 w-1 h-1' :
+              i % 3 === 1 ? 'bg-purple-400 w-0.5 h-0.5' :
+                'bg-white w-px h-px'
+            }`}
           style={{
             left: `${Math.random() * 100}%`,
             top: `${Math.random() * 100}%`,
@@ -214,6 +214,26 @@ const Projects = () => {
           <ProjectCard
             ref={el => cardsRef.current[3] = el}
             num={4}
+            name='TaskFlow — Task Management App'
+            img={taskflowImage}
+            link='' // not deployed yet
+            description={
+              <>
+                <span className='text-pink-400 font-semibold'>TaskFlow</span> is a productivity app for managing tasks with <span className='text-green-400'>login/signup authentication</span>, <span className='text-blue-400'>priority-based tags</span>, and full <span className='text-yellow-300'>CRUD functionality</span>.
+              </>
+            }
+            points={[
+              <><span className='font-semibold text-green-400'>User Authentication:</span> Secure login/signup and user-specific task management.</>,
+              <><span className='font-semibold text-yellow-400'>Task Management:</span> Add, update, delete tasks efficiently.</>,
+              <><span className='font-semibold text-purple-400'>Priority Tags:</span> Organize tasks with priority-based labels for easy tracking.</>,
+            ]}
+            tech='React, Tailwind CSS, Express.js, MongoDB'
+            btnLabel='Coming Soon — TaskFlow App'
+          />
+
+          {/* <ProjectCard
+            ref={el => cardsRef.current[4] = el}
+            num={5}
             name='FitFusion Web App (Group Project)'
             img={fitFusion}
             link='https://jirenxmoksh.github.io/FEE-II-PRJ/'
@@ -230,7 +250,7 @@ const Projects = () => {
             ]}
             tech='HTML, CSS, JavaScript'
             btnLabel='Try the App Now — FitFusion'
-          />
+          /> */}
         </div>
       </section>
 
