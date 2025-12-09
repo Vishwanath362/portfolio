@@ -97,7 +97,7 @@ const Navbar = () => {
               </span>
               <div className="flex gap-4 mt-2">
                 <a
-                  href="https://www.linkedin.com/in/vishwanath-ansari-a62a15295/"
+                  href="https://www.linkedin.com/in/vis1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-400 hover:text-blue-500 transition-colors duration-200"
