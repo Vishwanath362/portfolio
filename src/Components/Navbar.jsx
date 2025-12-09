@@ -109,6 +109,7 @@ const Navbar = () => {
                   </svg>
                   <span className="text-sm">LinkedIn</span>
                 </a>
+                
                 <a
                   href="https://github.com/Vishwanath362"
                   target="_blank"
